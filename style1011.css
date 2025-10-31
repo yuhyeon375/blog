@@ -1,0 +1,109 @@
+* {
+	text-align: center;
+	word-break: keep-all;
+}
+
+.darkblue{
+	color: #001BC2;
+}
+
+.whiteblue {
+	color: #1FA5FF;
+}
+
+.lightblue {
+	color: #007CD9;
+}
+
+.middleblue {
+	color: #004ECC;
+}
+
+.blackblue {
+	color: #003182;
+}
+
+a {
+	text-decoration-thickness: 3px;
+	text-decoration: none;
+	color: red;
+	
+}
+
+a:hover {
+	color: black;
+} 
+
+h1 {
+	border: 3px dashed #71A3DE;
+	display: inline-block;
+	padding: 3.5px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	font-weight: 900;
+}
+
+h2 {
+	font-weight: 900;
+}
+
+li {
+	list-style: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 1px;
+    margin: 0;
+    border: 3px dotted #71A3DE;
+}
+
+p {
+	line-height: 11px;
+	font-size: 14px;
+}
+
+img {
+	width: 300px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	display: inline-block;
+    vertical-align: top;
+}
+
+h3 {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;  
+    background-color: #FFA280;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+section {
+	border: 2px dotted #71A3DE;
+	margin-top: 30px;
+	display: inline-block;
+	padding: 30px;
+	padding-top: 15px;
+}
+
+h4 {
+	margin-top: 70px;
+	font-size: 15px;
+}
+
+.food {
+	display: flex;
+    justify-content: center;
+    gap: 15px;
+    border: 2px dotted #71A3DE;
+    padding: 20px;
+}
+
+.food img {
+	width: 200px;
+}
+
+
